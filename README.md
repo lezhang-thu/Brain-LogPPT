@@ -49,11 +49,11 @@ As indicated in Loghub-2.0 repo:
 2. Unzip the full datasets into `full_dataset`
 ```
 ├── full_dataset/
-│   ├── post_process.py # (Loghub-2.0) we provide the heuristic roles used in our annotation of templates
-│   ├── BGL
-│   │   ├── BGL_full.log
-│   │   ├── BGL_full.log_structured.csv
-│   │   ├── BGL_full.log_templates.csv
+    ├── post_process.py # (Loghub-2.0) we provide the heuristic roles used in our annotation of templates
+    ├── BGL
+        ├── BGL_full.log
+        ├── BGL_full.log_structured.csv
+        ├── BGL_full.log_templates.csv
 ```
 Besides, to get the pre-trained RoBERTa base model (for LogPPT), please run 
 ```bash
