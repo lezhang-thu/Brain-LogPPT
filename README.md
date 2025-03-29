@@ -23,7 +23,7 @@ The detailed statistics are available at `exp/Brain-LogPPT.csv` etc.
 For Brain-LogPPT, we've also attached the detailed 5 independent runs at `exp/runs-brain-logppt/0.csv` etc.
 
 We can get the aggregate metric values simply by running 
-```
+```bash
 python average-runs.py 5 results.csv
 ```
 within `exp/runs-brain-logppt` directory to get exactly the same results as those in `exp/Brain-LogPPT.csv`.
@@ -56,7 +56,7 @@ As indicated in Loghub-2.0 repo:
 │   │   ├── BGL_full.log_templates.csv
 ```
 Besides, to get the pre-trained RoBERTa base model (for LogPPT), please run 
-```
+```bash
 ./download.sh
 ```
 within `benchmark/LogPPT/pretrained_models/roberta-base`
